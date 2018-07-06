@@ -1,0 +1,53 @@
+/* 属性重置 */
+body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 { margin:0 ;padding:0; }
+body { background:#fff ; color:#000; font-size:12px; font-style:normal; font-family:"Microsoft Yahei"; }
+p{line-height:1.6}
+h1,h2,h3{line-height:2}
+em, b, i { font-style:normal;}
+img { border:none;}
+a { text-decoration:none; color:#000;}
+a:hover { text-decoration:underline; color:#cc0000;}
+li { list-style:none;}
+table { border-spacing:0; border-collapse:collapse;}
+
+/*清除浮动*/
+    .clearfix { *zoom: 1;}
+    .clearfix:before, .clearfix:after { display: table; line-height: 0; content: "";}
+    .clearfix:after { clear: both;}
+
+
+    /* header */
+    .header{
+        height: 40px;
+        background-color: #e6e6e6;
+    }
+    .top-wrap{
+      width: 1200px;
+      margin: 0 auto;
+    }
+    .top-l a{
+      float: left;
+      line-height: 40px;
+      margin-left: 20px;
+    }
+    .top-r{
+      float: right;
+      line-height: 40px;
+    }
+    .top-r a{
+      color: #666;
+      padding-right: 18px;
+    }
+  .top-r a::before{
+    height: 14px;
+    width: 1px;
+    content: "";
+    display: inline-block;
+    background-color: #666;
+    vertical-align: -2px;
+    margin-right: 25px;
+  }
+.top-r a:first-child::before{
+  display: none;
+  content: "";
+}
