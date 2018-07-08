@@ -155,3 +155,50 @@ table { border-spacing:0; border-collapse:collapse;}
   height: 100%;
   width: 100%;
 }
+
+/* tab */
+.list{
+  width: 1200px;
+  height: 452px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.list-l{
+  width: 360px;
+  height: 452px;
+  margin: 0 20px;
+  float: left;
+}
+.list-l h1{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1;
+  font-weight: bold;
+  color: #363636;
+}
+.list-l .line{
+  margin: 0 auto 32px;
+  display: block;
+  width: 182px;
+  height: 2px;
+  background-color: #e97913;
+}
+.text{
+  margin-left: 33px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  width: 295px;
+  height: 60px;
+  color: #666666;
+}
+
+/* about us */
+.about{
+  height: 720px;
+  background: url(../images/about.jpg) no-repeat;
+  background-size: cover;
+
+}
