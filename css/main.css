@@ -195,10 +195,49 @@ table { border-spacing:0; border-collapse:collapse;}
   color: #666666;
 }
 
-/* about us */
+/* about us */  /* 用为元素定位做两边的线 */
 .about{
   height: 720px;
   background: url(../images/about.jpg) no-repeat;
   background-size: cover;
-
+}
+.about-wrap h2{
+  font-size: 24px;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 1;
+}
+.about-wrap h3{
+  width: 1000px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  margin: 16px auto;
+  position: relative;
+}
+.about-wrap h3::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 380px;
+  height: 1px;
+  top: 5px;
+  background-color: #d9d9d9;
+}
+.about-wrap h3::after{
+  position: absolute;
+  content: "";
+  right: 0;
+  width: 380px;
+  height: 1px;
+  top: 5px;
+  background-color: #d9d9d9;
+}
+.about-line{
+  width: 60px;
+  height: 2px;
+  margin: 16px auto 0;
+  background-color: #e97913;
+  text-align: center;
 }
