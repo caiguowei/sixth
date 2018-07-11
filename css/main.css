@@ -1,6 +1,6 @@
 /* 属性重置 */
 body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 { margin:0 ;padding:0; }
-body { background:#fff ; color:#000; font-size:12px; font-style:normal; font-family:"Microsoft Yahei"; }
+body { background:#fff ; color:#000; font-size:14px; font-style:normal; font-family:"Microsoft Yahei"; }
 p{line-height:1.6}
 h1,h2,h3{line-height:2}
 em, b, i { font-style:normal;}
@@ -196,10 +196,17 @@ table { border-spacing:0; border-collapse:collapse;}
 }
 
 /* about us */  /* 用为元素定位做两边的线 */
-.about{
+.about-us{
+
   height: 720px;
+  margin: 0 auto;
   background: url(../images/about.jpg) no-repeat;
   background-size: cover;
+}
+.about{
+  width: 1200px;
+  height: 720px;
+  margin: 0 auto;
 }
 .about-wrap h2{
   font-size: 24px;
@@ -240,4 +247,27 @@ table { border-spacing:0; border-collapse:collapse;}
   margin: 16px auto 0;
   background-color: #e97913;
   text-align: center;
+}
+.about-wrap h4{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 42px;
+  line-height: 1;
+  color: #0058a9;
+}
+.about-wrap p{
+  text-indent: 2em;
+  padding: 0 25px;
+  line-height: 28px;
+  margin-top: 45px;
+}
+.about-wrap p a{
+  color: #ea8d49;
+}
+.about-wrap .about-list a{
+  float: left;
+  width: 360px;
+  height: 220px;
+  margin: 0 20px;
+  margin-top: 10px;
 }
