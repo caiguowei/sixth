@@ -208,13 +208,14 @@ table { border-spacing:0; border-collapse:collapse;}
   height: 720px;
   margin: 0 auto;
 }
-.about-wrap h2{
+.title{
   font-size: 24px;
   text-align: center;
   padding-top: 50px;
   line-height: 1;
+  font-weight: none;
 }
-.about-wrap h3{
+.abline{
   width: 1000px;
   overflow: hidden;
   font-size: 14px;
@@ -223,7 +224,7 @@ table { border-spacing:0; border-collapse:collapse;}
   margin: 16px auto;
   position: relative;
 }
-.about-wrap h3::before{
+.abline::before{
   position: absolute;
   content: "";
   left: 0;
@@ -232,7 +233,7 @@ table { border-spacing:0; border-collapse:collapse;}
   top: 5px;
   background-color: #d9d9d9;
 }
-.about-wrap h3::after{
+.abline::after{
   position: absolute;
   content: "";
   right: 0;
@@ -270,4 +271,79 @@ table { border-spacing:0; border-collapse:collapse;}
   height: 220px;
   margin: 0 20px;
   margin-top: 10px;
+}
+
+/* bussiness */
+.bussiness-wrap{
+  height: 520px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.bussiness-list{
+  margin-top: 50px;
+  margin-left: -20px;
+}
+.bussiness-list a{
+  width: 380px;
+  height: 170px;
+  background-color: #f2f1f7;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.bussiness-list:hover{
+  background-color: #c4c7d8;
+}
+.list-icon1{
+  width: 50px;
+  height: 50px;
+  margin-left: 68px;
+  margin-top: 60px;
+  background: url(../images/businessIcon.png)no-repeat;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+.bussiness-list a:hover .list-icon1{
+  background: url(../images/businessIcon.png) no-repeat 0 -50px;
+}
+.listTitle-wrap{
+    width: 240px;
+    height: 170px;
+    float: right;
+}
+.listTitle{
+  font-size: 20px;
+  margin-top: 40px;
+}
+.bussiness-list a:hover .listTitle{
+  color: #fff;
+}
+.listEname{
+  font-size: 12px;
+  color: #999999;
+  line-height: 1;
+}
+.bussiness-list a:hover .listEname{
+  color: #fff;
+}
+.list-line{
+  width: 175px;
+  height: 2px;
+  background-color: #bfbfbf;
+  margin: 6px 0;
+}
+.bussiness-list a:hover .list-line{
+  background-color: #fff;
+}
+.listTitle-wrap p{
+  width: 175px;
+  float: left;
+  font-size: 12px;
+  color: #999999;
+}
+.bussiness-list a:hover .list-text{
+  color: #fff;
 }
