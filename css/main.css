@@ -5,8 +5,8 @@ p{line-height:1.6}
 h1,h2,h3{line-height:2}
 em, b, i { font-style:normal;}
 img { border:none;}
-a { text-decoration:none; color:#000;}
-a:hover { text-decoration:underline; color:#cc0000;}
+a {text-decoration:none; color:#000;}
+a:hover { text-decoration:none; color:#cc0000;}
 li { list-style:none;}
 table { border-spacing:0; border-collapse:collapse;}
 .flt{float: left;}
@@ -293,22 +293,57 @@ table { border-spacing:0; border-collapse:collapse;}
   margin-bottom: 20px;
   margin-left: 20px;
 }
-.bussiness-list:hover{
+.bussiness-list:hover a{
   background-color: #c4c7d8;
 }
-.list-icon1{
+
+/* list-icon */
+.list-icon{
   width: 50px;
   height: 50px;
   margin-left: 68px;
   margin-top: 60px;
-  background: url(../images/businessIcon.png)no-repeat;
   display: inline-block;
   float: left;
   overflow: hidden;
 }
+.list-icon1{
+  background: url(../images/businessIcon.png)no-repeat;
+}
+.list-icon2{
+  background: url(../images/businessIcon.png)no-repeat -50px 0;
+}
+.list-icon3{
+  background: url(../images/businessIcon.png)no-repeat -100px 0;
+}
+.list-icon4{
+  background: url(../images/businessIcon.png)no-repeat -150px 0;
+}
+.list-icon5{
+  background: url(../images/businessIcon.png)no-repeat -200px 0;
+}
+.list-icon6{
+  background: url(../images/businessIcon.png)no-repeat -250px 0;
+}
 .bussiness-list a:hover .list-icon1{
   background: url(../images/businessIcon.png) no-repeat 0 -50px;
 }
+.bussiness-list a:hover .list-icon2{
+  background: url(../images/businessIcon.png) no-repeat -50px -50px;
+}
+.bussiness-list a:hover .list-icon3{
+  background: url(../images/businessIcon.png) no-repeat -100px -50px;
+}
+.bussiness-list a:hover .list-icon4{
+  background: url(../images/businessIcon.png) no-repeat -150px -50px;
+}
+.bussiness-list a:hover .list-icon5{
+  background: url(../images/businessIcon.png) no-repeat -200px -50px;
+}
+.bussiness-list a:hover .list-icon6{
+  background: url(../images/businessIcon.png) no-repeat -250px -50px;
+}
+/* icon end */
 .listTitle-wrap{
     width: 240px;
     height: 170px;
@@ -346,4 +381,36 @@ table { border-spacing:0; border-collapse:collapse;}
 }
 .bussiness-list a:hover .list-text{
   color: #fff;
+}
+/* bussiness end */
+
+/* News Center */
+.news-wrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+.news-tab{
+  margin: 50px auto 38px;
+  width: 535px;
+  height: 40px;
+}
+.newsTab-wrap{
+  margin-left: -5px;
+}
+.news-tab a{
+  width: 175px;
+  height: 40px;
+  background-color: #f2f1f7;
+  margin-left: 5px;
+  float: left;
+  display: inline-block;
+  font-size: 16px;
+  color: #363636;
+}
+.news-tab a:hover{
+  color: #fff;
+  background-color: #e97913;
+}
+.newsTab-wrap .text{
+  line-height: 40px;
 }
